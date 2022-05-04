@@ -1,19 +1,18 @@
 import React  from 'react';
-import picture from '../photos/Ahmad.jpg';
+import picture from '../photos/Profile.jpg';
+import '../css/About.css';
+
 const About = () => {
     return (
-        <div style={{'textAlign':'center'}}>
-        	<h1>AHMAD HAMADNEH</h1>
-        	<img src={picture} alt="ahmad" style={{'width':'700px','height':'500px'}}/>
-			<div style={{'textAlign':'left'}}>
-				<h3>Skills</h3>
-				<ul style={{'listStyleType':'none'}}>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>React</li>
-				</ul>
-			</div>
+        <div className="about-div">
+			<img className="profileImg" src={picture}/>
+			<h1 className="name">Ahmad Hamadneh</h1>
+			<h3 className="bio">Software | AI Engineer</h3>
+            <div className="contact">
+                <a href="https://www.linkedin.com/in/hamadneh/">linkedIn</a>
+                <a href="https://github.com/amjhamadneh">Github</a>
+                <a href="https://leetcode.com/Hamadneh/">LeetCode</a>
+            </div>
         </div>
     );
 };
