@@ -1,0 +1,51 @@
+
+https://javascript.info
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+Read on 
+1 - Code Stream
+2 - Fig.io
+3 - eval function take string and calculate it such as "3 + 3" return "6",  not used 
+
+Why node is important for react? you make run js localy on computer dont need browser 
+How can i run file using node js? node filename.js
+What is the different between C and JS in function? dataType parameter and diffrent compiler  
+What is the different between NULL and Undefined? 
+What is the different between  var , let , const ? 
+what is the different between == and === ? false == "" is true but false === "" is false.
+why '' is false and [] is true?
+what is different between library and framework? 
+Why use library or framework over pure? if performance is not important  
+what is the difference between export and default export? 
+	you can make one export default in file but export you can make more than one.
+	when import export without default put it in a curl brackets but default without it
+
+what is the difference between StateFull and StateLess?
+
+** anything inside {} considerd it as js code.
+** you can not name css file index => not working. 
+** name of function must begin in UpperCase.
+** in css muse put class or id not using tag name
+** length of function is number of parameters that function take it but default value or parameter not counted .
+** comment is different in react like this {/* */}
+
+
+Read hooks on react doc to be profitinal 
+
+
+Subject JS
+1 -  Destructuring assignment.
+2 -  Functions || Anonymous function || arrow functions(Important).
+3 -  Map
+4 -  Array Methods(push, some, filter, every, find, map,..etc).
+5 -  Template literals.
+6 -  Type conversion.
+7 -  Promises (then, final)
+8 -  this in arrow function
+9 -  electron tools ( framework)
+10 - React(useState,useEffect, fetch, props)
+11 - semantic HTML => search engine, accessiblity
+12 - context 
+13 - github co pilot extention expect what do you write in vs code and tabnine in sublime text 
+14 - you can check app when internet is low using inspect using just chrome
+15 - Router DOM 

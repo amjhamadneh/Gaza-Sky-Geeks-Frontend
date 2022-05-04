@@ -1,0 +1,42 @@
+.message{
+	color: red;
+}
+
+div{
+	text-align: center;
+	background-color: white;
+	margin: 20px;
+	padding: 5px;
+	border-radius:5px;
+	box-shadow: 0.2px 0.2px 0.4px 0.8px silver;
+}
+h3{
+	color: silver;
+}
+
+img{
+	width: 500px;
+	height: 500px;
+}
+body{
+	background-color: #F0F2F5;
+}
+input{
+	margin: 5px;
+	width: 300px;
+	height:30px;
+	border-radius: 5px;
+}
+button{
+	width: 50px;
+	height: 30px;
+	cursor:pointer;
+	background-color:white;
+	border: 0px;
+	border-radius:5px;
+	margin-right: 10px;
+	box-shadow: 0.2px 0.2px 0.4px 0.8px silver;
+}
+button:hover{
+	background-color: #EEEEEE;
+}
